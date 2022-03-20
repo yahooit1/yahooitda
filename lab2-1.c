@@ -1,10 +1,11 @@
 #include <stdio.h>
-int main()
-{
+int main(){
 char charType;
 int integerType;
 float floatType;
 double doubleType;
+
+printf("[----- [gahyun.kim] [2020045070] -----]");
 printf("Size of char: %ld byte\n",sizeof(charType)); //문자형 변수 charType의 크기 : 1 byte
 printf("Size of int: %ld bytes\n",sizeof(integerType)); //정수형 변수 inteherType의 크기 : 4 byte
 printf("Size of float: %ld bytes\n",sizeof(floatType)); // 실수형 변수 floatType의 크기 :4 byte 
